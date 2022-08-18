@@ -1,6 +1,6 @@
 #!/usr/bin/python
 #Author: Iulian Bancau
-#IF IT IS NOT WORKING, TRY TO CHANGE THE "-t" ATTRIBUTE FROM THE PING COMMAND WITH "-i" OR "-w", depending on the OS YOU USE!!!
+#IF IT IS NOT WORKING, TRY TO CHANGE THE "-t" ATTRIBUTE FROM THE PING COMMAND WITH "-i" OR "-w", DEPENDING ON THE OS YOU USE!!!
 
 import subprocess
 
