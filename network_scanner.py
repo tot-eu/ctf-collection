@@ -8,7 +8,7 @@ first_ip_fields = input('Enter first 3 fields of the IP Address (XXX.XXX.XXX):')
 retries = input('Enter number of retries:')
 ping_timeout = input('Ping timeout in (seconds):')
 
-for ping in range(1, 255):
+for ping in range(1, 256):
     ip_addr = first_ip_fields + "." + str(ping)
     res = subprocess.call(['ping', '-c', retries, '-t', ping_timeout, ip_addr])
     if res == 0:
