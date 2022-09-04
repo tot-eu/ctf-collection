@@ -4,12 +4,12 @@
 import random
 import string
 
-def gen_pass(length):
-    pass = ''
-    char =  string.ascii_letters
-    for i in range(length):
-        pass += random.choice(char + string.digits)
-    return password
+def gen_pass(len):
+    passw = ''
+    char = string.ascii_letters
+    for i in range(len):
+        passw += random.choice(char + string.digits)
+    return passw
 
-retries = int(input('Password length:'))
-print(gen_pass(retries))
+pass_len = int(input('Password length:'))
+print(gen_pass(pass_len))
