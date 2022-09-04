@@ -12,4 +12,3 @@ def gen_pass(length):
     return password
   
 print(gen_pass(10))
-print(gen_pass(7))
