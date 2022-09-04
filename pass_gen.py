@@ -1,3 +1,6 @@
+#!/usr/bin/python
+#Author: Iulian Bancau
+
 import random
 import string
 
