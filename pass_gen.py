@@ -10,5 +10,6 @@ def gen_pass(length):
     for i in range(length):
         pass += random.choice(char + string.digits)
     return password
-  
-print(gen_pass(10))
+
+retries = int(input('Password length:'))
+print(gen_pass(retries))
